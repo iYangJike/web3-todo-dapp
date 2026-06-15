@@ -15,6 +15,7 @@ export default function App() {
     toggleTodo,
     deleteTodo,
   } = useContract();
+  console.log('测试代码提交')
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e] text-gray-200">
       <div className="max-w-xl mx-auto px-5 py-10">
